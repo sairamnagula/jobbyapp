@@ -1,0 +1,70 @@
+.bg-jobs-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.left-section-container {
+  width: 20vw;
+  padding: 12px;
+}
+
+.profile-container {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+}
+
+.label-type {
+  color: aliceblue;
+}
+
+.label-type-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 12px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-type-heading {
+  color: aliceblue;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.horizontal-line {
+  border: 2px solid gainsboro;
+  width: 100%;
+}
+
+.right-section-container {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.search-bar {
+  height: 32px;
+  width: 350px;
+}
+
+.retry-button {
+  color: whitesmoke;
+  background-color: cornflowerblue;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 32px;
+  width: 116px;
+}
